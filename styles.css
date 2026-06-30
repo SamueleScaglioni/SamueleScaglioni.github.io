@@ -1,13 +1,13 @@
 :root {
-  --background: #f3efe6;
-  --text: #1f1f1f;
-  --muted: #6f6a60;
-  --accent: #6f1d1b;
-  --accent-dark: #3d2b1f;
-  --accent-light: #eadfd0;
-  --border: #d2c5b5;
-  --card: #fbfaf7;
-  --soft: #e8dfd2;
+  --background: #ffffff;
+  --text: #1f2933;
+  --muted: #667085;
+  --accent: #17324d;
+  --accent-dark: #0f2438;
+  --accent-light: #eef3f7;
+  --border: #e5e7eb;
+  --card: #ffffff;
+  --soft: #f8fafc;
 }
 
 * {
@@ -17,7 +17,7 @@
 body {
   margin: 0;
   font-family: Georgia, "Times New Roman", serif;
-  background: var(--background);
+  background: #ffffff;
   color: var(--text);
   line-height: 1.65;
 }
@@ -39,7 +39,7 @@ a:hover {
 
 .site-header {
   border-bottom: 1px solid var(--border);
-  background: rgba(243, 239, 230, 0.97);
+  background: rgba(255, 255, 255, 0.97);
   position: sticky;
   top: 0;
   z-index: 100;
