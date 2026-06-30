@@ -4,193 +4,164 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Samuele Scaglioni</title>
-
-  <style>
-    body {
-      font-family: Georgia, "Times New Roman", serif;
-      max-width: 900px;
-      margin: 60px auto;
-      padding: 0 25px;
-      line-height: 1.65;
-      color: #222;
-      background-color: #fafafa;
-    }
-
-    header {
-      margin-bottom: 45px;
-    }
-
-    h1 {
-      font-size: 2.6em;
-      margin-bottom: 5px;
-      font-weight: normal;
-    }
-
-    .subtitle {
-      font-size: 1.1em;
-      color: #555;
-      margin-top: 0;
-    }
-
-    nav {
-      margin-top: 25px;
-      padding-top: 15px;
-      border-top: 1px solid #ddd;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 15px;
-    }
-
-    nav a {
-      margin-right: 20px;
-      color: #003366;
-      text-decoration: none;
-      font-family: Arial, sans-serif;
-      font-size: 0.95em;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    h2 {
-      margin-top: 45px;
-      font-size: 1.5em;
-      font-weight: normal;
-      border-bottom: 1px solid #ddd;
-      padding-bottom: 6px;
-    }
-
-    a {
-      color: #003366;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .paper {
-      margin-bottom: 28px;
-    }
-
-    .paper-title {
-      font-weight: bold;
-      font-size: 1.05em;
-    }
-
-    .note {
-      color: #666;
-      font-size: 0.95em;
-    }
-
-    footer {
-      margin-top: 60px;
-      padding-top: 20px;
-      border-top: 1px solid #ddd;
-      font-size: 0.9em;
-      color: #666;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-  <header>
-    <h1>Samuele Scaglioni</h1>
+  <header class="site-header">
+    <div class="container navbar">
+      <div class="site-name">
+        <a href="index.html">Samuele Scaglioni</a>
+      </div>
 
-    <p class="subtitle">
-      Incoming MAE student at the University of Chicago<br>
-      European Central Bank | Macro-finance | Financial Stability | Applied Econometrics
-    </p>
-
-    <nav>
-      <a href="#about">About</a>
-      <a href="#research">Research</a>
-      <a href="#cv">CV</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="cv.html">CV</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <section id="about">
-    <h2>About</h2>
+  <main class="container">
 
-    <p>
-      I am an incoming MAE student at the University of Chicago. Before joining UChicago,
-      I spent two years at the European Central Bank, working on macroprudential policy,
-      financial stability, stress testing, and forecasting tools.
-    </p>
+    <section class="hero">
+      <div>
+        <img src="images/profile.jpg" alt="Samuele Scaglioni" class="profile-photo">
+      </div>
 
-    <p>
-      My interests lie at the intersection of macro-finance, banking, financial stability,
-      risk modelling, and applied econometrics. I am particularly interested in empirical
-      and computational methods for studying financial institutions, systemic risk, and
-      economic policy.
-    </p>
-  </section>
+      <div>
+        <h1>Samuele Scaglioni</h1>
 
-  <section id="research">
-    <h2>Research</h2>
+        <p class="hero-subtitle">
+          Incoming MAE student at the University of Chicago<br>
+          European Central Bank | Macro-finance | Financial Stability | Applied Econometrics
+        </p>
 
-    <h3>Working Papers</h3>
+        <p class="hero-text">
+          I am an incoming MAE student at the University of Chicago. Before joining UChicago,
+          I spent two years at the European Central Bank, working on macroprudential policy,
+          financial stability, stress testing, and forecasting tools.
+        </p>
 
-    <div class="paper">
-      <p class="paper-title">Working paper title coming soon</p>
-      <p class="note">Draft in progress.</p>
+        <p class="hero-text">
+          My interests lie at the intersection of macro-finance, banking, financial stability,
+          risk modelling, and applied econometrics.
+        </p>
+
+        <div class="button-row">
+          <a class="button primary" href="cv.html">View CV</a>
+          <a class="button" href="research.html">Research</a>
+          <a class="button" href="contact.html">Contact</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section two-column">
+      <div>
+        <h2>Research interests</h2>
+
+        <p>
+          I am interested in empirical and computational methods for studying financial institutions,
+          systemic risk, macro-financial linkages, and economic policy.
+        </p>
+
+        <div class="tag-list">
+          <span class="tag">Macro-finance</span>
+          <span class="tag">Banking</span>
+          <span class="tag">Financial stability</span>
+          <span class="tag">Stress testing</span>
+          <span class="tag">Risk modelling</span>
+          <span class="tag">Applied econometrics</span>
+          <span class="tag">Data science</span>
+        </div>
+      </div>
+
+      <div>
+        <h2>Links</h2>
+
+        <p>
+          <a href="files/Samuele_Scaglioni_CV.pdf">Download CV</a><br>
+          <a href="https://github.com/SamueleScaglioni">GitHub</a><br>
+          <a href="#">LinkedIn</a><br>
+          <a href="contact.html">Email</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Research</h2>
+
+      <div class="card">
+        <p class="paper-title">Working paper title coming soon</p>
+        <p class="muted">Draft in progress.</p>
+        <p>
+          Abstract coming soon.
+        </p>
+
+        <div class="paper-links">
+          <a href="#">PDF coming soon</a>
+          <a href="#">Slides coming soon</a>
+          <a href="#">Code coming soon</a>
+        </div>
+      </div>
+
       <p>
-        Abstract coming soon.
+        See the <a href="research.html">research page</a> for working papers and work in progress.
       </p>
-    </div>
+    </section>
 
-    <h3>Research Interests</h3>
+    <section class="section">
+      <h2>Latest updates</h2>
 
-    <p>
-      Macro-finance; banking; financial stability; stress testing; risk modelling;
-      applied econometrics; data science for economic policy.
-    </p>
-  </section>
+      <div class="update">
+        <div class="update-date">2026</div>
+        <div>
+          Incoming MAE student at the University of Chicago.
+        </div>
+      </div>
 
-  <section id="cv">
-    <h2>CV</h2>
+      <div class="update">
+        <div class="update-date">2024–2026</div>
+        <div>
+          Trainee at the European Central Bank, working on macroprudential policy,
+          financial stability, stress testing, and forecasting tools.
+        </div>
+      </div>
+    </section>
 
-    <p>
-      My CV will be available here soon.
-    </p>
+    <section class="section">
+      <h2>Selected projects</h2>
 
-    <!-- Later, when you upload your CV PDF, replace the sentence above with:
-    <p><a href="files/Samuele_Scaglioni_CV.pdf">Download my CV</a></p>
-    -->
-  </section>
+      <div class="card">
+        <h3>Macro-financial forecasting and stress testing tools</h3>
+        <p>
+          High-level description of work on forecasting tools, scenario analysis, and dashboards
+          for macro-financial applications.
+        </p>
+      </div>
 
-  <section id="projects">
-    <h2>Selected Projects</h2>
+      <div class="card">
+        <h3>Applied econometrics and data science</h3>
+        <p>
+          Academic and professional projects using Python, R, SQL, econometrics, and data visualization.
+        </p>
+      </div>
 
-    <p>
-      Selected academic and professional projects will be added here.
-    </p>
+      <p class="muted">
+        Descriptions of professional work are kept at a high level and do not include confidential
+        or internal material.
+      </p>
+    </section>
 
-    <p class="note">
-      Note: descriptions of professional work are kept at a high level and do not include
-      confidential or internal material.
-    </p>
-  </section>
+  </main>
 
-  <section id="contact">
-    <h2>Contact</h2>
-
-    <p>
-      Email: add-your-email-here
-      <br>
-      GitHub: <a href="https://github.com/SamueleScaglioni">github.com/SamueleScaglioni</a>
-      <br>
-      LinkedIn: add-your-linkedin-here
-    </p>
-  </section>
-
-  <footer>
-    <p>
+  <footer class="footer">
+    <div class="container">
       © 2026 Samuele Scaglioni
-    </p>
+    </div>
   </footer>
 
 </body>
