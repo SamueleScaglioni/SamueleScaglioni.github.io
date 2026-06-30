@@ -4,35 +4,64 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Samuele Scaglioni</title>
+
   <style>
     body {
-      font-family: Arial, sans-serif;
-      max-width: 850px;
+      font-family: Georgia, "Times New Roman", serif;
+      max-width: 900px;
       margin: 60px auto;
       padding: 0 25px;
-      line-height: 1.6;
+      line-height: 1.65;
       color: #222;
+      background-color: #fafafa;
+    }
+
+    header {
+      margin-bottom: 45px;
     }
 
     h1 {
-      font-size: 2.4em;
-      margin-bottom: 0;
+      font-size: 2.6em;
+      margin-bottom: 5px;
+      font-weight: normal;
     }
 
     .subtitle {
-      color: #555;
-      margin-top: 5px;
       font-size: 1.1em;
+      color: #555;
+      margin-top: 0;
+    }
+
+    nav {
+      margin-top: 25px;
+      padding-top: 15px;
+      border-top: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 15px;
+    }
+
+    nav a {
+      margin-right: 20px;
+      color: #003366;
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      font-size: 0.95em;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
     }
 
     h2 {
-      margin-top: 40px;
+      margin-top: 45px;
+      font-size: 1.5em;
+      font-weight: normal;
       border-bottom: 1px solid #ddd;
-      padding-bottom: 5px;
+      padding-bottom: 6px;
     }
 
     a {
-      color: #0056b3;
+      color: #003366;
       text-decoration: none;
     }
 
@@ -41,53 +70,128 @@
     }
 
     .paper {
-      margin-bottom: 25px;
+      margin-bottom: 28px;
+    }
+
+    .paper-title {
+      font-weight: bold;
+      font-size: 1.05em;
+    }
+
+    .note {
+      color: #666;
+      font-size: 0.95em;
+    }
+
+    footer {
+      margin-top: 60px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
+      font-size: 0.9em;
+      color: #666;
     }
   </style>
 </head>
 
 <body>
-  <h1>Samuele Scaglioni</h1>
 
-  <p class="subtitle">
-    Incoming MAE student at the University of Chicago | European Central Bank | Macro-finance, financial stability, and applied econometrics
-  </p>
+  <header>
+    <h1>Samuele Scaglioni</h1>
 
-  <h2>About</h2>
-  <p>
-    I am an incoming MAE student at the University of Chicago. Before joining UChicago, I spent two years at the European Central Bank, working on macroprudential policy, financial stability, stress testing, and forecasting tools.
-  </p>
-
-  <p>
-    My interests lie at the intersection of macro-finance, banking, financial stability, risk modelling, and applied econometrics.
-  </p>
-
-  <h2>Research Interests</h2>
-  <p>
-    Macro-finance; banking; financial stability; stress testing; risk modelling; applied econometrics; data science for economic policy.
-  </p>
-
-  <h2>Working Papers</h2>
-
-  <div class="paper">
-    <strong>Working paper title coming soon</strong>
-    <br>
-    <em>Draft in progress.</em>
-    <p>
-      Abstract coming soon.
+    <p class="subtitle">
+      Incoming MAE student at the University of Chicago<br>
+      European Central Bank | Macro-finance | Financial Stability | Applied Econometrics
     </p>
-  </div>
 
-  <h2>CV</h2>
-  <p>
-    CV coming soon.
-  </p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#cv">CV</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-  <h2>Contact</h2>
-  <p>
-    Email: add your professional email here
-    <br>
-    GitHub: <a href="https://github.com/SamueleScaglioni">github.com/SamueleScaglioni</a>
-  </p>
+  <section id="about">
+    <h2>About</h2>
+
+    <p>
+      I am an incoming MAE student at the University of Chicago. Before joining UChicago,
+      I spent two years at the European Central Bank, working on macroprudential policy,
+      financial stability, stress testing, and forecasting tools.
+    </p>
+
+    <p>
+      My interests lie at the intersection of macro-finance, banking, financial stability,
+      risk modelling, and applied econometrics. I am particularly interested in empirical
+      and computational methods for studying financial institutions, systemic risk, and
+      economic policy.
+    </p>
+  </section>
+
+  <section id="research">
+    <h2>Research</h2>
+
+    <h3>Working Papers</h3>
+
+    <div class="paper">
+      <p class="paper-title">Working paper title coming soon</p>
+      <p class="note">Draft in progress.</p>
+      <p>
+        Abstract coming soon.
+      </p>
+    </div>
+
+    <h3>Research Interests</h3>
+
+    <p>
+      Macro-finance; banking; financial stability; stress testing; risk modelling;
+      applied econometrics; data science for economic policy.
+    </p>
+  </section>
+
+  <section id="cv">
+    <h2>CV</h2>
+
+    <p>
+      My CV will be available here soon.
+    </p>
+
+    <!-- Later, when you upload your CV PDF, replace the sentence above with:
+    <p><a href="files/Samuele_Scaglioni_CV.pdf">Download my CV</a></p>
+    -->
+  </section>
+
+  <section id="projects">
+    <h2>Selected Projects</h2>
+
+    <p>
+      Selected academic and professional projects will be added here.
+    </p>
+
+    <p class="note">
+      Note: descriptions of professional work are kept at a high level and do not include
+      confidential or internal material.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+
+    <p>
+      Email: add-your-email-here
+      <br>
+      GitHub: <a href="https://github.com/SamueleScaglioni">github.com/SamueleScaglioni</a>
+      <br>
+      LinkedIn: add-your-linkedin-here
+    </p>
+  </section>
+
+  <footer>
+    <p>
+      © 2026 Samuele Scaglioni
+    </p>
+  </footer>
+
 </body>
 </html>
