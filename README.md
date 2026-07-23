@@ -13,10 +13,8 @@ I am an incoming Master of Arts student in Economics at the University of Chicag
 - `index.html` - homepage
 - `research.html` - working papers and work in progress
 - `cv.html` - CV page
-- `projects.html` - selected projects
 - `contact.html` - contact information
 - `styles.css` - original website styling
 - `images/` - profile and website images
 - `files/` - CV and research PDFs
 
-Professional project descriptions are kept at a high level and do not include confidential or internal material.
