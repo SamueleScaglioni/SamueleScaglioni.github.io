@@ -280,13 +280,16 @@ a:hover {
 
 .paper-card {
   display: grid;
-  grid-template-columns: 1fr 230px;
-  gap: 30px;
-  align-items: start;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: 40px;
+  align-items: center;
 }
 
 .paper-preview {
   width: 100%;
+  max-width: 360px;
+  height: auto;
+  justify-self: end;
   border: 1px solid var(--border);
   border-radius: 3px;
   box-shadow: 0 8px 22px rgba(23, 50, 77, 0.12);
@@ -383,7 +386,10 @@ a:hover {
   }
 
   .paper-preview {
-    max-width: 230px;
+    width: 100%;
+    max-width: 420px;
+    justify-self: start;
+    margin-top: 8px;
   }
 }
 
